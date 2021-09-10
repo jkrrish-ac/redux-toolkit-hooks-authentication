@@ -1,7 +1,7 @@
 export const setTokens = (authRes: any) => {
     localStorage.setItem('user', JSON.stringify(authRes.user));
-    localStorage.setItem('token', JSON.stringify(authRes.access_token));
-    localStorage.setItem('refreshToken', JSON.stringify(authRes.refresh_token));
+    localStorage.setItem('token', JSON.stringify(authRes.token));
+    localStorage.setItem('refreshToken', JSON.stringify(authRes.refreshToken));
   };
   
   export const removeTokens = () => {
