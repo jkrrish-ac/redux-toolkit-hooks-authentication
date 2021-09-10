@@ -1,5 +1,5 @@
 import React from 'react';
-export const TodoListPage = () => {
+export const UsersListPage = () => {
     return(
         <div>Component created</div>
     )

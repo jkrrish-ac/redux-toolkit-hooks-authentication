@@ -4,7 +4,7 @@ import { authenticateUser } from './loginSlice';
 import { useAppDispatch } from '../../hooks';
 import { isAuthenticated } from '../../services/authenticationService';
 import { useHistory } from 'react-router-dom';
-
+import styles  from './Login.module.css'
 
 export function LoginPage() {
 
@@ -19,7 +19,7 @@ export function LoginPage() {
     };
 
     return (
-            <Card hoverable={true} title="Authentication" className="login-card">
+            <Card hoverable={true} title="Authentication" className={styles.login_card}>
                 <Form
                     name="basic"
                     labelCol={{ span: 8 }}
