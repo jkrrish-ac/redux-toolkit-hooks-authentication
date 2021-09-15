@@ -1,19 +1,16 @@
 const env = {
   development: {
-    API_URL: '',
-    BASE_URL: '',
+    BASE_URL: 'https://jsonplaceholder.typicode.com/',
     USER_NAME: 'j.krrishchandran@gmail.com',
     PASSWORD: 'samplereact'
   },
   production: {
-    API_URL: '',
-    BASE_URL: '',
+    BASE_URL: 'https://jsonplaceholder.typicode.com/',
     USER_NAME: 'j.krrishchandran@gmail.com',
     PASSWORD: 'samplereact'
   },
   test: {
-    API_URL: '',
-    BASE_URL: '',
+    BASE_URL: 'https://jsonplaceholder.typicode.com/',
     USER_NAME: 'j.krrishchandran@gmail.com',
     PASSWORD: 'samplereact'
   },
